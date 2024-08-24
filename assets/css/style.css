@@ -13,7 +13,7 @@ body{
 /* HEADER */
 
 header {
-    background-color: #f15e80;
+    background-color: #3cbbc8;
     box-shadow: 0px 3px 10px #464646;
     width: 100vw;
     max-width: 100vw;
@@ -195,33 +195,6 @@ figure.logo{
     }
 }
 
-/* MAPA */
-
-.map{
-    padding: 0;
-}
-.map iframe{
-    width: 100%;
-    height: 100%;
-}
-
-/*Responsive Form*/
-@media (max-width: 991px){
-    .box{
-        /*position: relative;
-        display: grid;*/
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "form"
-        "info"
-        "map";
-    }
-    .map{
-        min-height: 300px;
-        padding: 0;
-    }
-}
 /*HOME*/
 #home {
     display: flex;
@@ -388,6 +361,9 @@ figure.logo{
 .dish-image {
     width: 10vw;
 }
+.img-pet3, .img-pet5{
+    max-width: 8vw;
+}
 
 @media screen and (max-width: 1170px) {
     #dishes {
@@ -446,6 +422,11 @@ section {
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-color .3s ease;
+}
+
+.btn-default a {
+    text-decoration: none;
+    color: #000;
 }
 
 .btn-default:hover {
