@@ -385,6 +385,10 @@ figure.logo{
     gap: 20px;
 }
 
+.dish-image {
+    width: 10vw;
+}
+
 @media screen and (max-width: 1170px) {
     #dishes {
         flex-wrap: wrap;
